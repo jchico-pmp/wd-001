@@ -1,0 +1,167 @@
+/*CSS reset*/
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Nunito', sans-serif;
+}
+
+body {
+	/*background-image: url("../images/bg2.jpg");*/
+	/*background-image:linear-gradient(blue,white);*/
+	/*background-image:linear-gradient(to right, blue,white);*/
+	background-image:linear-gradient(rgba(250,250,250,0.75),rgba(0,0,0,.35)),url("../images/bg4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	height:100vh;
+}
+
+/*targets the html element with class container*/
+
+.container {
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+/*end of container*/
+
+/*targets the html element h1*/
+h1 {
+	color:antiquewhite; /*this changes the font color of h1 element*/
+	background-color: rgba(40,40,40,0.75);
+	text-transform: uppercase;
+	font-size:40px;
+	letter-spacing: 3px;
+	padding: 5px;
+	padding-left: 10px;
+	font-family: 'Nunito', sans-serif;
+	border-radius: 30px;
+	margin-bottom: 10px;
+
+
+}
+/*end of h1 styling*/
+
+/*start of h2 styling*/
+h2 {
+	color:#333;
+	background-color: rgba(245,222,179,.45);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 30px;
+	font-family: 'Nunito', sans-serif;
+	
+
+}
+
+
+/*end of h2 styling*/
+
+/*targets html element with class attribute bio*/
+
+.bio {
+	color: rgb(37,37,37);
+	font-size: 18px;
+	line-height: 25px;
+	background-color: rgba(254,254,254,0.55);
+	font-family: 'Nunito', sans-serif;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	
+
+
+
+}
+
+/*end of bio*/
+
+/*targets html element with id attribute me*/
+
+#me {
+	height:200px;
+	width:0 auto;
+	border-radius: 20%;
+	border-width: 1px;
+	border-color: #ffffff;
+	border-style: none;
+	margin-top: 50px;
+	margin-bottom: 0px;
+
+}
+
+.arte {
+	font-family: 'Damion', sans-serif;
+	font-size: 26px; 
+	color: #c27b00;  
+}
+
+#artline {
+	height:0 auto;
+	width:100px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+
+}
+
+#gif {
+	height:110px;
+	width:0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	opacity: 0.6;
+
+
+}
+
+#gif2 {
+	height:110px;
+	width:0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	border-radius: 0px;
+	opacity: 0.75;
+
+
+}
+
+#gif3 {
+	height:110px;
+	width:0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	opacity: 0.6;
+
+
+}
+
+#pic {
+	float: right;
+	height:120px;
+	width:0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	opacity: 0.6;
+
+
+}
+
+
+
+
+/*end of me*/
